@@ -1,0 +1,21 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+
+  .input-wrapper {
+    display: flex;
+    gap: 6px;
+    .input-label {
+      text-decoration: underline;
+    }
+  }
+
+  .submit-button {
+    font-size: 20px;
+    align-self: center;
+  }
+}
